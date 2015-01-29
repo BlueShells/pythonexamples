@@ -1,6 +1,7 @@
 #!/usr/bin/env pyton
 # coding=utf-8
-
+# 注意，第一 163邮箱必须设置smtp
+#       第二 脚步所在服务器必须有一个比较正规的hostname
 import smtplib  
 from email.mime.text import MIMEText  
 mailto_list=["to@qq.com"] 
